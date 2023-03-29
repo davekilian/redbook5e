@@ -1,0 +1,44 @@
+0 "Preface" 1 open
+0 "Chapter 1: Background" 2 open
+1 "What Goes Around Comes Around" 4 open
+1 "Architecture of a Database System" 44 open
+0 "Chapter 2: Traditional RDBMS Systems" 163 open
+1 "System R: Relational Approach to Database Management" 165 open
+1 "The Design of POSTGRES" 206 open
+1 "The Gamma Database Machine Project" 234 open
+0 "Chapter 3: Techniques Everyone Should Know" 272 open
+1 "Access path selection in a relational database management system" 277 open
+1 "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging" 289 open
+1 "Granularity of Locks and Degrees of Consistency in a Shared Data Base" 358 open
+1 "Concurrency Control Performance Modeling: Alternatives and Implications" 388 open
+1 "Transaction Management in the R* Distributed Database Management System" 434 open
+0 "Chapter 4: New DBMS Architectures" 453 open
+1 "C-store: A Column-oriented DBMS" 455 open
+1 "Hekaton: SQL Server's Memory-optimized OLTP Engine" 467 open
+1 "OLTP Through the Looking Glass, and What We Found There" 479 open
+0 "Chapter 5: Large-Scale Dataflow Engines" 491 open
+1 "MapReduce: Simplified Data Processing on Large Clusters" 496 open
+1 "DryadLINQ: A System for General-Purpose Distributed Data-Paralllel Computing Using a High-Level Language" 509 open
+0 "Chapter 6: Weak Isolation and Distribution" 523 open
+1 "Generalized Isolation Level Definitions" 528 open
+1 "Dynamo: Amazon's Highly Available Key-Value Store" 540 open
+1 "CAP Twelve Years Later: How the Rules Have Changed" 556 open
+0 "Chapter 7: Query Optimization" 565 open
+1 "The Volcano Optimizer Generator: Extensibility and Efficient Search" 569 open
+1 "Eddies: Continuously Adaptive Query Processing" 579 open
+1 "Robust Query Processing Through Progressive Optimization" 591 open
+0 "Chapter 8: Interactive Analytics" 603 open
+1 "Implementing Data Cubes Efficiently" 607 open
+1 "Naughton: An Array-Based Algorithm for Simultaneous Multidimensional Aggregates" 632 open
+1 "Informix under CONTROL: Online Query Processing" 658 open
+1 "BlinkDB: Queries with Bounded Errors and Bounded Response Times on Very Large Data" 692 open
+0 "Chapter 9: Languages" 706 open
+1 "Some High Level Language Constructs for Data of Type Relation" 711 open
+1 "The CQL Continuous Query Language: Semantic Foundations and Query Execution" 726 open
+1 "Consistency Analysis in Bloom: A CALM and Collected Approach" 748 open
+0 "Chapter 10: Web Data" 760 open
+1 "The Anatomy of a Large-scale Hypertextual Web Search Engine" 762 open
+1 "Combining Systems and Databases: A Search Engine Retrospective" 773 open
+1 "WebTables: Exploring the Power of Tables on the Web" 787 open
+0 "Chapter 11: Complex Analytics" 799 open
+0 "Chapter 12: Data Integration" 804 open

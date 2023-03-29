@@ -1,0 +1,20 @@
+#!/bin/bash
+cpdf=./cpdf
+
+inputs=
+for index in {0..12}
+do
+    inputs="$inputs pdfs/$index.pdf"
+    for ext in a b c d e f
+    do
+        name="pdfs/$index$ext.pdf"
+        if [ -f "$name" ]; then
+            inputs="$inputs $name"
+        fi
+    done
+done
+
+$cpdf $inputs -o redbook5e.pdf
+$cpdf -remove-bookmarks redbook5e.pdf -o redbook5e.pdf
+$cpdf -add-bookmarks toc redbook5e.pdf -o redbook5e.pdf
+$cpdf -table-of-contents -toc-title "Readings in Database Systems, 5th Edition" redbook5e.pdf -o redbook5e.pdf
